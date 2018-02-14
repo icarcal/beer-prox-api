@@ -8,12 +8,12 @@ Install dependencies, then start the node process with the following:
 > git clone https://github.com/icarcal/beer-prox-api.git
 > cd beer-prox-api
 > npm install
-> npm start
+> npm start ./bin/www
 ```
 
-**Access the app on http://localhost:3000**
+**Access the app on http://localhost:3000/beers**
 
-Despite of being a proxy, you can overwrite the following filters (and only this fields, any other filter will be removed from the proxy).
+Despite of being a proxy, you can overwrite the following parameters (and only this parameters, any other parameter will be removed from the proxy).
 
 | PARAM     | TYPE   | DETAILS                                                                                                                                                                        |
 | --------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
