@@ -11,7 +11,7 @@ Install dependencies, then start the node process with the following:
 > npm start
 ```
 
-** Access the app on http://localhost:3000 **
+**Access the app on http://localhost:3000**
 
 Despite of being a proxy, you can overwaarite the following filters (and only this fields, any other filter will be removed from the proxy).
 
