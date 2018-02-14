@@ -33,7 +33,7 @@ router.get('/', (req, res) => {
       return res.json(response.data);
     }
 
-    res.json({
+    return res.json({
       statusCode,
       error: 'Proxy timed out',
       message: 'The proxy server is not responding, please try again later',
